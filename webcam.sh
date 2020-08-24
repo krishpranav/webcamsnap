@@ -1,3 +1,5 @@
+#!bin/bash
+
 trap 'printf "\n";stop' 2
 
 
