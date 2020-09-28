@@ -12,6 +12,8 @@ This tool capture the photo of the front camera of the victim's mobile when the 
 - git clone https://github.com/krishpranav/webcamsnap
 - cd webcamsnap
 - sudo chmod +x *
+- for install brew
+- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 - brew install wget
 - bash webcamsnap.sh
 
