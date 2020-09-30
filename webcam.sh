@@ -3,11 +3,6 @@
 trap 'printf "\n";stop' 2
 
 
-banner (){
- printf "This Tool Is Only For Legal Purpose \n"
- printf "Use This Tool To View Other's Webcam \n"
- printf "TOOL IS CREATED BY KRISNA PRANAV \n"
-}
 stop() {
 checkngrok=$(ps aux | grep -o "ngrok" | head -n1)
 checkphp=$(ps aux | grep -o "php" | head -n1)
@@ -220,6 +215,6 @@ checkfound
 
 }
 
-banner
+
 dependencies
 start1
